@@ -19,8 +19,9 @@ const ProductCard = () => {
 
             <footer className='align_center product_info_footer'>
                 <div className='align_center'>
-                    <p className='algin_center product_rating'>
-                        <img src={star} alt="star" /> 5.0
+                    <p className='align_center product_rating'>
+                        <img src={star} alt="star" />
+                        5.0
                     </p>
                     <p className='product_review_count'>159</p>
                 </div>
