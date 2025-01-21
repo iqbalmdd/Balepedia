@@ -6,16 +6,20 @@ import ProductsPage from './components/Products/ProductsPage'
 import SingleProductPage from './components/SingleProduct/SingleProductPage'
 import CartPage from './components/Cart/CartPage'
 import MyOrder from './components/MyOrder/MyOrderPages'
+import LoginPage from './components/Authentication/LoginPage'
+import SignupPage from './components/Authentication/SignupPage'
 
 const App = () => {
   return (
     <div className='app'>
       <Navbar />
-      <HomePage />
+      {/* <HomePage />
       <ProductsPage />
       <SingleProductPage />
       <CartPage />
-      <MyOrder />
+      <MyOrder /> */}
+      {/* <LoginPage /> */}
+      <SignupPage />
     </div>
   )
 }
