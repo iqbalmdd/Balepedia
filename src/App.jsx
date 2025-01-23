@@ -13,12 +13,12 @@ const App = () => {
   return (
     <div className='app'>
       <Navbar />
-      {/* <HomePage />
+      <HomePage />
       <ProductsPage />
       <SingleProductPage />
       <CartPage />
-      <MyOrder /> */}
-      {/* <LoginPage /> */}
+      <MyOrder />
+      <LoginPage />
       <SignupPage />
     </div>
   )
